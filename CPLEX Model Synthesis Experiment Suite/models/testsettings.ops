@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings version="2">
+  <category name="cplex">
+    <setting name="mipemphasis" value="1"/>
+    <setting name="workmem" value="256.0"/>
+    <setting name="predual" value="-1"/>
+    <setting name="prelinear" value="0"/>
+    <setting name="relaxpreind" value="0"/>
+    <setting name="repeatpresolve" value="0"/>
+    <setting name="symmetry" value="0"/>
+  </category>
+</settings>

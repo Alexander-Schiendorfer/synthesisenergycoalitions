@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CSP Model Synthesis"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CPLEX Constraint Relationships"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Multi-objective optimisation"/>
+	<classpathentry kind="lib" path="lib/oplall.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

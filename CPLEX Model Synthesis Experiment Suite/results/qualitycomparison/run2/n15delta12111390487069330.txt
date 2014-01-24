@@ -1,0 +1,10 @@
+Filename: n15delta1211 / run at Thu Jan 23 15:24:29 CET 2014
+fails: 50 / suboptimals: 0
+Time horizon: 10numberOfPlants=15
+seed=1337
+deltaPenalties=1.2
+deltaViolation=1.1
+numberOfRuns=50
+dominanceProperty=0
+
+

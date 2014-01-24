@@ -1,0 +1,23 @@
+/*********************************************
+ * OPL 12.4 Data
+ * Author: alexander
+ * Creation Date: Jan 13, 2014 at 11:44:10 AM
+ *********************************************/
+ PowerPlants = { "Plant1", "Plant2"};
+ 
+ 
+ demand = [400, 420, 380, 390, 410, 440, 4600, 4300, 4200, 4100]; 
+ 
+ plants = #[
+ 	Plant1 :
+ 		#< minimal : 40,
+ 		   maximal: 200,
+ 		   fixedRamp : 10
+ 		 >#,
+ 	Plant2 :
+ 		#< minimal : 60,
+ 		   maximal: 600,
+ 		   fixedRamp : 30
+ 		 >#
+ ]#;
+ 

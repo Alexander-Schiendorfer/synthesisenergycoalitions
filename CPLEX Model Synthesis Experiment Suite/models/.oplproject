@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="Configuration1" category="opl">
+			<ref type="model" name="AvppsWithViolations_cont.mod">
+			</ref>
+			<ref type="data" name="avpps.dat">
+			</ref>
+		</config>
+		<config default="false" name="Configuration2" category="opl">
+			<ref type="model" name="AvppsWithViolations_discrete.mod">
+			</ref>
+			<ref type="data" name="avpps.dat">
+			</ref>
+		</config>
+		<config default="false" name="Configuration3" category="opl">
+			<ref type="model" name="SimplifiedStartup.mod">
+			</ref>
+			<ref type="data" name="avpps.dat">
+			</ref>
+		</config>
+		<config default="false" name="state_transition_system" category="opl">
+			<ref type="model" name="simple_transition_system#.mod">
+			</ref>
+		</config>
+		<config default="false" name="Configuration4" category="opl">
+			<ref type="model" name="generic_startup_model.mod">
+			</ref>
+		</config>
+		<config default="false" name="minimalistic_model" category="opl">
+			<ref type="model" name="MinimalisticModel.mod">
+			</ref>
+			<ref type="data" name="minimalistic_data.dat">
+			</ref>
+		</config>
+		<config default="false" name="Configuration5" category="opl">
+			<ref type="model" name="TestModel.mod">
+			</ref>
+		</config>
+		<config default="false" name="Konfiguration 1" category="opl">
+			<ref type="model" name="TestModelCP.mod">
+			</ref>
+		</config>
+		<config default="false" name="Configuration6" category="opl">
+			<ref type="model" name="TestModel2.mod">
+			</ref>
+			<ref type="data" name="data2.dat">
+			</ref>
+		</config>
+		<config default="false" name="Configuration7" category="opl">
+			<ref type="model" name="stepfunctest.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

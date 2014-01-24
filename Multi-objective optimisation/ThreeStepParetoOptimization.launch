@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<stringAttribute key="bad_container_name" value="/Multi-objective optimisation/run-configs"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Multi-objective optimisation/src/de/uniaugsburg/isse/ThreeStepParetoOptimization.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="LD_LIBRARY_PATH" value="/home/alexander/Programs/CPLEX/opl/bin/x86-64_sles10_4.1"/>
+</mapAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="de.uniaugsburg.isse.ThreeStepParetoOptimization"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Multi-objective optimisation"/>
+</launchConfiguration>

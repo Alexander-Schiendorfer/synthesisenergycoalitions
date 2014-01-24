@@ -1,0 +1,48 @@
+/*********************************************
+ * OPL 12.2 Data
+ * Author: steghoja
+ * Creation Date: 27.04.2011 at 16:26:33
+ *********************************************/
+
+ 
+ ControllablePlants = { "Plant1", "Plant2"};
+ 
+ maxBps = 3;
+ 
+ energyConsumption = [4000, 4200, 3800, 3900, 4100, 4400, 4600, 4300, 4200, 4100]; 
+ 
+ PowerPlant = #[
+ 	Plant1 :
+ 		#< minimalProduction : 40,
+ 		   maximalProduction: 200,
+ 		   rateOfChange: 0.05,
+ 		   fixedRamp : 1000, // dummy value
+ 		   pricePerKWh: 0.02,
+ 		   numBPs : 3,
+ 		   slopesStartUp : [0, 0, 0, 0],
+ 		   breakpointsStartUp : [0, 0, 0],
+ 		   fAtZero : 2,
+ 		   consRunningTimeInit : 0,
+ 		   consStandingTimeInit : 1,
+ 		   minDownTime : 2,
+ 		   minUpTime : 2,
+ 		   countDownInit : 10
+ 		 >#,
+ 	Plant2 :
+ 		#< minimalProduction : 60,
+ 		   maximalProduction: 600,
+ 		   rateOfChange: 100.0, // dummy value
+ 		   fixedRamp : 30, // actual value
+ 		   pricePerKWh: 0.07,
+ 		   numBPs : 3,
+ 		   slopesStartUp : [0, 0, 0, 0],
+ 		   breakpointsStartUp : [0, 0, 0],
+ 		   fAtZero : 1,
+ 		   consRunningTimeInit : 0,
+ 		   consStandingTimeInit : 5,
+ 		   minDownTime : 2,
+ 		   minUpTime : 2,
+ 		   countDownInit : 10
+ 		 >#
+ ]#;
+ 
