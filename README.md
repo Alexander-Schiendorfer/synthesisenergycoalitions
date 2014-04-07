@@ -1,8 +1,8 @@
-Synthesis Constraint Models for Energy Coalitions
+Synthesis Constraint Models for Distributed Energy Management
 ==========================
 
 This readme file explains all necessary steps to execute
-experiments presented in the ACM eEnergy-2014 paper.
+experiments presented in the SEN-MAS-2014 paper.
 Please note that the experiments were actually conducted 
 on a cluster with workers having 4 cores and 32 GB RAM each.
 
